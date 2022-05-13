@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recorder Tool</title>
+    <link rel="icon" href="../rsrc/tools_icon.png">
+    <link rel="stylesheet" href="..\css\styles.css">
+</head>
+<body>
+    <div class="header">
+        <button onclick="window.location.href='index.html'" class="nav-but">BACK
+        </button>
+    </div>
+    <div class="wrapper">
+        <div class="recording-container">
+            <div data-recordings="" class="wavy-background" id="wavy"></div>
+            <button data-recordings="" id="recording-button"></button>
+            <div data-role="recordings"></div>
+            <button class="nav-but" onclick="clearAll()">DELETE</button>
+        </div>   
+    </div>
+    <div class="footer">
+        <a href="mailto: oloka2018@gmail.com">Contact Us</a>
+    </div>
+    <script src="..\js\jquery.min.js"></script>
+    <script src="https://markjivko.com/dist/recorder.js"></script>
+    <script src="..\js\recorders.js"></script>
+
+</body>
+</html>
